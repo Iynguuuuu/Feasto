@@ -10,10 +10,8 @@ const App = () => {
         <Navbar />
         <HomePage />
 
-        <div className='relative z-[30]'>
-          <Features />
+        <Features />
 
-        </div>
       </>
     </div>
   )
