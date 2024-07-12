@@ -5,7 +5,7 @@ import Navbar from "./components/NavBar"
 const App = () => {
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden h-[600vh]">
       <>
         <Navbar />
         <HomePage />
