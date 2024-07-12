@@ -49,7 +49,7 @@ export const HomePage = () => {
                         <span className="block md:inline"> within
                             <span className="relative inline-block ml-2">
                                 3 Minutes
-                                <img src="../../public/Stroke.png" alt="stroke" className="absolute mt-6 inset-0 w-full h-full object-contain -z-10" />
+                                <img src="/Stroke.png" alt="stroke" className="absolute mt-6 inset-0 w-full h-full object-contain -z-10" />
                             </span>
                         </span>
                     </p>
@@ -62,24 +62,24 @@ export const HomePage = () => {
                         </div>
                     </div>
                     <div className="flex flex-row md:space-x-[-7rem] space-x-[-2rem] mt-5">
-                        <div><img src="../../public/images/phone1.png" alt="phone1" /></div>
-                        <div><img src="../../public/images/phone2.png" alt="phone2" /></div>
-                        <div><img src="../../public/images/phone3.png" alt="phone3" /></div>
-                        <div><img src="../../public/images/phone4.png" alt="phone4" /></div>
+                        <div><img src="/phone1.png" alt="phone1" /></div>
+                        <div><img src="/phone2.png" alt="phone2" /></div>
+                        <div><img src="/phone3.png" alt="phone3" /></div>
+                        <div><img src="/phone4.png" alt="phone4" /></div>
                     </div>
                 </div>
 
                 <Slider {...settings} className="mt-[2rem]">
-                    <div><img src="../../public/images/Logo1.png" alt="logo1" /></div>
-                    <div><img src="../../public/images/Logo2.png" alt="logo2" /></div>
-                    <div><img src="../../public/images/Logo3.png" alt="logo3" /></div>
-                    <div><img src="../../public/images/Logo4.png" alt="logo4" /></div>
-                    <div><img src="../../public/images/Logo5.png" alt="logo5" /></div>
-                    <div><img src="../../public/images/Logo6.png" alt="logo6" /></div>
-                    <div><img src="../../public/images/Logo7.png" alt="logo7" /></div>
-                    <div><img src="../../public/images/Logo8.png" alt="logo8" /></div>
-                    <div><img src="../../public/images/Logo2.png" alt="logo9" /></div>
-                    <div><img src="../../public/images/Logo10.png" alt="logo10" /></div>
+                    <div><img src="/Logo1.png" alt="logo1" /></div>
+                    <div><img src="/Logo2.png" alt="logo2" /></div>
+                    <div><img src="/Logo3.png" alt="logo3" /></div>
+                    <div><img src="/Logo4.png" alt="logo4" /></div>
+                    <div><img src="/Logo5.png" alt="logo5" /></div>
+                    <div><img src="/Logo6.png" alt="logo6" /></div>
+                    <div><img src="/Logo7.png" alt="logo7" /></div>
+                    <div><img src="/Logo8.png" alt="logo8" /></div>
+                    <div><img src="/Logo2.png" alt="logo9" /></div>
+                    <div><img src="/Logo10.png" alt="logo10" /></div>
                 </Slider>
             </div>
         </div>

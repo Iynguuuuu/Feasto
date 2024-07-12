@@ -23,7 +23,7 @@ export function StreamlineGraphBarIncreaseSolid(props: SVGProps<SVGSVGElement>) 
 const featureData = [
     {
         id: 1,
-        imgSrc: "../../public/images/deliverygreen.svg",
+        imgSrc: "/deliverygreen.svg",
         bgColor: "bg-green",
         title: "Deliveries completed",
         count: "85/day",
@@ -33,7 +33,7 @@ const featureData = [
     },
     {
         id: 2,
-        imgSrc: "../../public/images/increase.svg",
+        imgSrc: "/increase.svg",
         bgColor: "bg-yellow",
         title: "Total Customers",
         count: "10,456",
@@ -43,7 +43,7 @@ const featureData = [
     },
     {
         id: 3,
-        imgSrc: "../../public/images/orders.svg",
+        imgSrc: "/orders.svg",
         bgColor: "bg-red",
         title: "Orders Received",
         count: "124/day",
@@ -53,7 +53,7 @@ const featureData = [
     },
     {
         id: 4,
-        imgSrc: "../../public/images/increase.svg",
+        imgSrc: "/increase.svg",
         bgColor: "bg-yellow",
         title: "Orders Received",
         count: "124/day",
@@ -63,7 +63,7 @@ const featureData = [
     },
     {
         id: 5,
-        imgSrc: "../../public/images/deliverygreen.svg",
+        imgSrc: "/deliverygreen.svg",
         bgColor: "bg-green",
         title: "Orders Received",
         count: "124/day",
@@ -76,11 +76,11 @@ const featureData = [
 const Features = () => {
     return (
         <div className="relative md:mt-[0px] mt-[-30rem] mx-5 md:mx-24">
-            <div className="relative flex md:flex-row flex-col-reverse md:justify-between space-y-8"> 
+            <div className="relative flex md:flex-row flex-col-reverse md:justify-between space-y-8">
                 <div>
                     <img
                         className="md:w-[613px] md:h-[813px] w-[400px] h-[450px]"
-                        src="../../public/images/ImageCollection.png"
+                        src="/ImageCollection.png"
                         alt="features"
                     />
                     {featureData.map((feature) => (
@@ -102,7 +102,7 @@ const Features = () => {
                         </div>
                     ))}
                 </div>
-                <div className="md:w-[588px] md:h-[760px] w-[358px] h-[951px] text-left md:my-5"> 
+                <div className="md:w-[588px] md:h-[760px] w-[358px] h-[951px] text-left md:my-5">
                     <p className="text-primary md:text-[18px] text-[14px] font-medium">EXPLORE FEASTO</p>
                     <p className="text-text1 md:text-[52px] text-[36px] font-black">
                         How <span className="text-primary">FEASTO</span> help your business grow?
