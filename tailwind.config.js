@@ -6,8 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {},
-          
+      colors: {
+        primary: "#E52D3C",
+        text1:"#1F2937",
+      },
+
 
     },
   },

@@ -1,11 +1,12 @@
+import Navbar from "./components/NavBar"
 
-
-function App() {
-
-
+const App = () => {
+  
   return (
-    <div>
-
+    <div className="overflow-x-hidden">
+      <div>
+        <Navbar/>                              
+      </div>
     </div>
   )
 }
