@@ -49,7 +49,7 @@ export const HomePage = () => {
                         <span className="block md:inline"> within
                             <span className="relative inline-block ml-2">
                                 3 Minutes
-                                <img src="../../public/images/stroke.png" alt="stroke" className="absolute mt-6 inset-0 w-full h-full object-contain -z-10" />
+                                <img src="../../public/Stroke.png" alt="stroke" className="absolute mt-6 inset-0 w-full h-full object-contain -z-10" />
                             </span>
                         </span>
                     </p>
