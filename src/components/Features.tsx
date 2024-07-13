@@ -1,4 +1,3 @@
-
 import type { SVGProps } from 'react';
 
 export function OcticonRocket16(props: SVGProps<SVGSVGElement>) {
@@ -20,59 +19,6 @@ export function StreamlineGraphBarIncreaseSolid(props: SVGProps<SVGSVGElement>) 
     return (<svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 14 14" {...props}><path fill="#e52d3c" fillRule="evenodd" d="M9.997.22a.75.75 0 0 1 .819-.163l2.127.882a.75.75 0 0 1 .408.977l-.869 2.127a.75.75 0 0 1-1.386.006l-.343-.82L2.115 6.92a.75.75 0 1 1-.59-1.38l8.649-3.695l-.337-.805a.75.75 0 0 1 .16-.82m2.753 5.26a1 1 0 0 1 1 1v7a.5.5 0 0 1-.5.5h-2.5a.5.5 0 0 1-.5-.5v-7a1 1 0 0 1 1-1zM8.457 7.272a1 1 0 0 0-.707-.292h-1.5a1 1 0 0 0-1 1v5.5a.5.5 0 0 0 .5.5h2.5a.5.5 0 0 0 .5-.5v-5.5a1 1 0 0 0-.293-.708M2.75 8.48a1 1 0 0 1 1 1v4a.5.5 0 0 1-.5.5H.75a.5.5 0 0 1-.5-.5v-4a1 1 0 0 1 1-1z" clipRule="evenodd"></path></svg>);
 }
 
-const featureData = [
-    {
-        id: 1,
-        imgSrc: "/deliverygreen.svg",
-        bgColor: "bg-green",
-        title: "Deliveries completed",
-        count: "85/day",
-        mt: "-630px",
-        ml: "460px",
-        mdOnly: true,
-    },
-    {
-        id: 2,
-        imgSrc: "/increase.svg",
-        bgColor: "bg-yellow",
-        title: "Total Customers",
-        count: "10,456",
-        mt: "-275px",
-        ml: "150px",
-        mdOnly: true,
-    },
-    {
-        id: 3,
-        imgSrc: "/orders.svg",
-        bgColor: "bg-red",
-        title: "Orders Received",
-        count: "124/day",
-        mt: "-840px",
-        ml: "280px",
-        mdOnly: true,
-    },
-    {
-        id: 4,
-        imgSrc: "/increase.svg",
-        bgColor: "bg-yellow",
-        title: "Orders Received",
-        count: "124/day",
-        mt: "-160px",
-        ml: "20px",
-        mdOnly: false,
-    },
-    {
-        id: 5,
-        imgSrc: "/deliverygreen.svg",
-        bgColor: "bg-green",
-        title: "Orders Received",
-        count: "124/day",
-        mt: "-470px",
-        ml: "160px",
-        mdOnly: false,
-    },
-];
-
 const Features = () => {
     return (
         <div className="relative md:mt-[0px] mt-[-30rem] mx-5 md:mx-24">
@@ -83,24 +29,71 @@ const Features = () => {
                         src="/ImageCollection.png"
                         alt="features"
                     />
-                    {featureData.map((feature) => (
-                        <div
-                            key={feature.id}
-                            className={`absolute mt-[${feature.mt}] ml-[${feature.ml}] ${feature.mdOnly ? "md:block hidden" : "block md:hidden"} w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg`}
-                        >
-                            <div className="flex flex-row space-x-3">
-                                <div className={`size-[32px] ${feature.bgColor} rounded-md flex items-center justify-center`}>
-                                    <img src={feature.imgSrc} alt={feature.title} />
-                                </div>
-                                <div className="mt-[-2px]">
-                                    <p className="text-text2 text-[10px]">{feature.title}</p>
-                                    <p className="text-text3 font-semibold text-[12px]">
-                                        <span className="text-[18px] text-text1">{feature.count}</span>
-                                    </p>
-                                </div>
+                    <div className="absolute mt-[-630px] ml-[460px] md:block hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="flex flex-row space-x-3">
+                            <div className="size-[32px] bg-green rounded-md flex items-center justify-center">
+                                <img src="/deliverygreen.svg" alt="Deliveries completed" />
+                            </div>
+                            <div className="mt-[-2px]">
+                                <p className="text-text2 text-[10px]">Deliveries completed</p>
+                                <p className="text-text3 font-semibold text-[12px]">
+                                    <span className="text-[18px] text-text1">85/day</span>
+                                </p>
                             </div>
                         </div>
-                    ))}
+                    </div>
+                    <div className="absolute mt-[-275px] ml-[150px] md:block hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="flex flex-row space-x-3">
+                            <div className="size-[32px] bg-yellow rounded-md flex items-center justify-center">
+                                <img src="/increase.svg" alt="Total Customers" />
+                            </div>
+                            <div className="mt-[-2px]">
+                                <p className="text-text2 text-[10px]">Total Customers</p>
+                                <p className="text-text3 font-semibold text-[12px]">
+                                    <span className="text-[18px] text-text1">10,456</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute mt-[-840px] ml-[280px] md:block hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="flex flex-row space-x-3">
+                            <div className="size-[32px] bg-red rounded-md flex items-center justify-center">
+                                <img src="/orders.svg" alt="Orders Received" />
+                            </div>
+                            <div className="mt-[-2px]">
+                                <p className="text-text2 text-[10px]">Orders Received</p>
+                                <p className="text-text3 font-semibold text-[12px]">
+                                    <span className="text-[18px] text-text1">124/day</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute mt-[-160px] ml-[20px] block md:hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="flex flex-row space-x-3">
+                            <div className="size-[32px] bg-yellow rounded-md flex items-center justify-center">
+                                <img src="/increase.svg" alt="Orders Received" />
+                            </div>
+                            <div className="mt-[-2px]">
+                                <p className="text-text2 text-[10px]">Orders Received</p>
+                                <p className="text-text3 font-semibold text-[12px]">
+                                    <span className="text-[18px] text-text1">124/day</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute mt-[-470px] ml-[160px] block md:hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="flex flex-row space-x-3">
+                            <div className="size-[32px] bg-green rounded-md flex items-center justify-center">
+                                <img src="/deliverygreen.svg" alt="Orders Received" />
+                            </div>
+                            <div className="mt-[-2px]">
+                                <p className="text-text2 text-[10px]">Orders Received</p>
+                                <p className="text-text3 font-semibold text-[12px]">
+                                    <span className="text-[18px] text-text1">124/day</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="md:w-[588px] md:h-[760px] w-[358px] h-[951px] text-left md:my-5">
                     <p className="text-primary md:text-[18px] text-[14px] font-medium">EXPLORE FEASTO</p>
@@ -113,11 +106,9 @@ const Features = () => {
                                 <OcticonRocket16 />
                                 <div>
                                     <p className='text-[20px] text-text1 font-bold'>Launch your store in 3 mins</p>
-
                                 </div>
-
                             </div>
-                            <p className='text-[18px] text-text3 mt-4' >Easily launch your online store without coding and saving time.
+                            <p className='text-[18px] text-text3 mt-4'>Easily launch your online store without coding and saving time.
                                 Just choose a domain, add products, and start selling. It's that simple!</p>
                         </div>
                         <div>
@@ -125,11 +116,9 @@ const Features = () => {
                                 <MdiCommentFlashOutline />
                                 <div>
                                     <p className='text-[20px] text-text1 font-bold'>Faster response time</p>
-
                                 </div>
-
                             </div>
-                            <p className='text-[18px] text-text3 mt-4' >Quickly respond to customer queries and orders through WhatsApp,
+                            <p className='text-[18px] text-text3 mt-4'>Quickly respond to customer queries and orders through WhatsApp,
                                 boosting customer satisfaction and loyalty.</p>
                         </div>
                         <div>
@@ -137,11 +126,9 @@ const Features = () => {
                                 <StreamlineGraphBarIncreaseSolid />
                                 <div>
                                     <p className='text-[20px] text-text1 font-bold'>Increased visibility</p>
-
                                 </div>
-
                             </div>
-                            <p className='text-[18px] text-text3 mt-4' >Expand your reach beyond physical locations with an online storefront
+                            <p className='text-[18px] text-text3 mt-4'>Expand your reach beyond physical locations with an online storefront
                                 that’s accessible 24/7.</p>
                         </div>
                         <div>
@@ -149,20 +136,12 @@ const Features = () => {
                                 <MdiGamesOutline />
                                 <div>
                                     <p className='text-[20px] text-text1 font-bold'>Ultimate control over your storefront</p>
-
                                 </div>
-
                             </div>
-                            <p className='text-[18px] text-text3 mt-4' >You can set your own opening hours, define delivery zones and charges,
+                            <p className='text-[18px] text-text3 mt-4'>You can set your own opening hours, define delivery zones and charges,
                                 select payment methods and handle offers effortlessly.</p>
                         </div>
-
-
-
-
-
                     </div>
-
                 </div>
             </div>
         </div>
