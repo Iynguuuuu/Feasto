@@ -43,7 +43,8 @@ export const HomePage = () => {
                     <p className="text-[14px] md:text-[18px] text-primary font-medium">Seamless Setup, Quick, Easy and No-Code</p>
                     <p className="text-[36px] md:text-[60px] text-text1 font-black relative">
                         <span className="block md:inline">Build Website for</span>
-                        <span className="block md:inline"> your Business</span>
+                        <span className="hidden md:inline"> your</span>
+                        <span className="block md:hidden"> your Business</span>
                         <br className="hidden md:block" />
                         <span className="md:inline hidden">Business</span>
                         <span className="block md:inline"> within
