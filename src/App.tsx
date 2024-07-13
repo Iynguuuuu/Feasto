@@ -1,7 +1,7 @@
-import Features from "./components/Features"
-import { HomePage } from "./components/HomePage"
+import Features from "./pages/Features"
+import { HomePage } from "./pages/HomePage"
 import Navbar from "./components/NavBar"
-import { Templates } from "./components/Templates"
+import { Templates } from "./pages/Templates"
 
 const App = () => {
 

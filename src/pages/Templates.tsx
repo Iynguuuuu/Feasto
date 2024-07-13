@@ -1,4 +1,4 @@
-import Cards from "./Cards"
+import Cards from "../components/Cards"
 
 export const Templates = () => {
     return (
@@ -13,7 +13,7 @@ export const Templates = () => {
                     <span className="hidden md:inline"> with amazing templates</span>
                     <span className="block md:hidden"> with beautiful</span>
                     <span className="block md:hidden"> Templates</span>
-                
+
                 </p>
 
                 <Cards />
