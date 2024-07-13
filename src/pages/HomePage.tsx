@@ -55,12 +55,12 @@ export const HomePage = () => {
                         </span>
                     </p>
                     <div className="flex flex-col md:flex-row md:space-x-3 mt-8 justify-center items-center space-y-3 md:space-y-0">
-                        <div className="flex justify-center items-center w-[358px] md:w-[260px] h-[56px] rounded-md bg-primary border-[1px] outline-gray-300">
+                        <button className="flex justify-center items-center w-[358px] md:w-[260px] h-[56px] rounded-md bg-primary border-[1px] outline-gray-300">
                             <p className="text-white text-[16px] font-semibold">Build Your Website Now</p>
-                        </div>
-                        <div className="flex justify-center items-center w-[358px] md:w-[139px] h-[56px] rounded-md bg-white border-[1px] outline-gray-300">
+                        </button>
+                        <button className="flex justify-center items-center w-[358px] md:w-[139px] h-[56px] rounded-md bg-white border-[1px] outline-gray-300">
                             <p className="text-text1 text-[16px] font-semibold">Get a demo</p>
-                        </div>
+                        </button>
                     </div>
                     <div className="flex flex-row md:space-x-[-7rem] space-x-[-2rem] mt-5">
                         <div><img src="/phone1.png" alt="phone1" /></div>

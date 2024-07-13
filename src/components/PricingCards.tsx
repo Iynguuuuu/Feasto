@@ -16,9 +16,9 @@ const PricingCards = () => {
                         <p className="mt-4 font-bold text-5xl text-text1 tracking-[-2px] ">$0</p>
 
 
-                        <div className="mt-8 flex justify-center items-center w-[290px] h-[60px] rounded-md bg-white border-[1px] outline-gray-300">
+                        <button className="mt-8 flex justify-center items-center w-[290px] h-[60px] rounded-md bg-white border-[1px] outline-gray-300">
                             <p className="text-text1 text-base font-semibold">Start for FREE</p>
-                        </div>
+                        </button>
 
 
                         <div className="mt-5 flex flex-row space-x-2">
@@ -61,9 +61,9 @@ const PricingCards = () => {
 
 
                             <p className="text-text6 text-base mt-3">Monthly, Billed annually</p>
-                            <div className="mt-4 flex justify-center items-center w-[290px] h-[60px] rounded-md bg-primary border-[1px] outline-gray-300">
+                            <button className="mt-4 flex justify-center items-center w-[290px] h-[60px] rounded-md bg-primary border-[1px] outline-gray-300">
                                 <p className="text-white text-base font-semibold">Get 14 days free trail</p>
-                            </div>
+                            </button>
 
 
                             <div className="mt-5 flex flex-row space-x-2">

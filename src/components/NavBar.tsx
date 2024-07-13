@@ -25,12 +25,12 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex flex-row space-x-3">
-                    <div className="hidden md:flex justify-center items-center w-[139px] h-[52px] rounded-md bg-white border-[1px] outline-gray-300">
+                    <button className="hidden md:flex justify-center items-center w-[139px] h-[52px] rounded-md bg-white border-[1px] outline-gray-300">
                         <p className="text-text1 text-[16px] font-semibold">Get a demo</p>
-                    </div>
-                    <div className="flex justify-center items-center w-[169px] h-[52px] rounded-md bg-primary border-[1px] outline-gray-300">
+                    </button>
+                    <button className="flex justify-center items-center w-[169px] h-[52px] rounded-md bg-primary border-[1px] outline-gray-300">
                         <p className="text-white text-[16px] font-semibold">Sign up for free</p>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
