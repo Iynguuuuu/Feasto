@@ -1,5 +1,4 @@
-import React from 'react';
-
+// Flowbite Card Component
 const cardData = [
     {
         id: 1,
