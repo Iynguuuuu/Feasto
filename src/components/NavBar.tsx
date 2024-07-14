@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-[100%] items-center mx-auto fixed z-[10000] h-[104px] smaller:h-[90px] bg-white shadow-md">
+        <div className="w-[100%] items-center mx-auto fixed z-[10000] h-[104px] small:h-[80px] bg-white shadow-md">
             <div className='flex items-center justify-between w-[90%] mx-auto h-[100%]'>
                 <div className="flex items-center">
                     <div onClick={handleToggle} className="cursor-pointer text-gray-400 md:hidden">
