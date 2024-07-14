@@ -4,6 +4,7 @@ import Navbar from "./components/NavBar"
 import { Templates } from "./pages/Templates"
 import { Pricing } from "./pages/Pricing"
 import { FAQ } from "./pages/FAQ"
+import MoreInfo from "./components/MoreInfo"
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <Templates />
         <Pricing />
         <FAQ />
+        <MoreInfo/>
       </>
     </div>
   )
