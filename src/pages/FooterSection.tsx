@@ -84,7 +84,7 @@ const FooterSection = () => {
             <div className="bg-primary ">
                 <div className="md:w-[85%] flex md:flex-row flex-col md:space-y-0 space-y-3 justify-between mx-auto p-5 text-center">
 
-                    <div><p className="text-white text-base">Designed & Developed with 🤍 by Cogntix</p></div>
+                    <div><p className="text-white text-base">Designed & Developed with 🤍 by <span className="inline"><a href="https://www.cogntix.com/">Cogntix</a></span></p></div>
                     <div className="text-white text-base"><p>© 2022 Feasto. All rights reserved.</p></div>
                 </div>
             </div>
