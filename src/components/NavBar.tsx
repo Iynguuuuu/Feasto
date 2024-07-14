@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-[100%] items-center mx-auto fixed z-[10000] h-[104px] bg-white shadow-md">
+        <div className="w-[100%] items-center mx-auto fixed z-[10000] h-[104px] smaller:h-[90px] bg-white shadow-md">
             <div className='flex items-center justify-between w-[90%] mx-auto h-[100%]'>
                 <div className="flex items-center">
                     <div onClick={handleToggle} className="cursor-pointer text-gray-400 md:hidden">
@@ -22,7 +22,7 @@ const Navbar = () => {
                     </div>
                     <a href="#Home">
                         <img
-                            className="cursor-pointer ml-2 w-[110px] h-[28.6px] md:w-auto md:h-auto"
+                            className="cursor-pointer ml-2 w-[110px] h-[28.6px] md:w-auto md:h-auto smaller:w-[80px] smaller:h-[25px]"
                             src="/logo.png" alt="logo"
                         /></a>
                 </div>
@@ -38,8 +38,8 @@ const Navbar = () => {
                     <button className="hidden md:flex justify-center items-center w-[139px] h-[52px] rounded-md bg-white border-[1px] outline-gray-300">
                         <p className="text-text1 text-[16px] font-semibold">Get a demo</p>
                     </button>
-                    <button className="flex justify-center items-center md:w-[169px] md:h-[52px] w-[137px] h-[46px]  rounded-md bg-primary border-[1px] outline-gray-300">
-                        <p className="text-white md:text-[16px] text-sm md:font-semibold font-medium">Sign up for free</p>
+                    <button className="flex justify-center items-center md:w-[169px] md:h-[52px] w-[137px] h-[46px] smaller:w-[120px] smaller:h-[35px]  rounded-md bg-primary border-[1px] outline-gray-300">
+                        <p className="text-white md:text-[16px] text-sm smaller:text-[12px] md:font-semibold font-medium">Sign up for free</p>
                     </button>
                 </div>
             </div>

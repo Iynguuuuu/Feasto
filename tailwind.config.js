@@ -19,7 +19,10 @@ export default {
         red: "#FEF2F2",
         bcircle: "#E5EAF1",
       },
-
+      screens: {
+        'smaller': {'max': '371px'},
+        'small': {'max': '376px'},
+      }
 
     },
   },

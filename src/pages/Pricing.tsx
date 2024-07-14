@@ -13,11 +13,11 @@ export const Pricing = () => {
 
                     <div className="flex md:flex-row flex-col md:space-x-[340px]">
                         <div className="text-left">
-                            <p className="text-[14px] md:text-[18px]  text-primary font-medium">PRICING & PLANS </p>
-                            <p className="text-[36px] md:text-[52px] text-text1 font-black relative">
+                            <p className="text-[14px] md:text-[18px]  text-primary font-medium small:ml-5">PRICING & PLANS </p>
+                            <p className="text-[36px] md:text-[52px] text-text1 font-black relative small:ml-4">
                                 Perfect Balance <br /> of features & Affordability
                             </p>
-                            <p className="md:w-[687px] mt-4 font-normal text-lg text-left text-text3">
+                            <p className="md:w-[687px] mt-4 font-normal text-lg text-left text-text3 small:ml-4">
                                 Feasto simplifies creating a stunning, professional
                                 web store with its<br className="" /> user-friendly templates and quick setup.
                                 <br className="md:hidden block" />Our powerful features ensure a<br className="md:block hidden" /> seamless experience.</p>

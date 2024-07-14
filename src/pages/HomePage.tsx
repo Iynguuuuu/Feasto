@@ -39,10 +39,10 @@ export const HomePage = () => {
     return (
         <section id='Home'>
             <div className="h-[1400px] flex items-center justify-center ">
-                <div className="w-[90%] mx-auto text-center relative md:mt-[2rem] mt-[-25rem]">
+                <div className="w-[90%] mx-auto text-center relative md:mt-[2rem] smaller:mt-[-30rem] mt-[-25rem]">
                     <div>
-                        <p className="text-[14px] md:text-[18px] text-primary font-medium">Seamless Setup, Quick, Easy and No-Code</p>
-                        <p className="text-[36px] md:text-[60px] text-text1 font-black relative">
+                        <p className="text-[14px] md:text-[18px] smaller:text-[12px] text-primary font-medium">Seamless Setup, Quick, Easy and No-Code</p>
+                        <p className="text-[36px] md:text-[60px] smaller:text-[33px] text-text1 font-black relative">
                             <span className="block md:inline">Build Website for</span>
                             <span className="hidden md:inline"> your</span>
                             <span className="block md:hidden"> your Business</span>
@@ -51,15 +51,15 @@ export const HomePage = () => {
                             <span className="block md:inline"> within
                                 <span className="relative inline-block ml-2">
                                     3 Minutes
-                                    <img src="/Stroke.png" alt="stroke" className="absolute mt-6 inset-0 w-full h-full object-contain -z-10" />
+                                    <img src="/Stroke.png" alt="stroke" className="absolute mt-6 inset-0 w-full h-full object-contain -z-10 " />
                                 </span>
                             </span>
                         </p>
                         <div className="flex flex-col md:flex-row md:space-x-3 mt-8 justify-center items-center space-y-3 md:space-y-0">
-                            <button className="flex justify-center items-center w-[358px] md:w-[260px] h-[56px] rounded-md bg-primary border-[1px] outline-gray-300">
+                            <button className="flex justify-center items-center w-[358px] md:w-[260px] h-[56px] rounded-md bg-primary border-[1px] outline-gray-300 smaller:w-[250px] smaller:h-[50px]">
                                 <p className="text-white text-[16px] font-semibold">Build Your Website Now</p>
                             </button>
-                            <button className="flex justify-center items-center w-[358px] md:w-[139px] h-[56px] rounded-md bg-white border-[1px] outline-gray-300">
+                            <button className="flex justify-center items-center w-[358px] md:w-[139px] h-[56px] rounded-md bg-white border-[1px] outline-gray-300 smaller:w-[250px] smaller:h-[50px]">
                                 <p className="text-text1 text-[16px] font-semibold">Get a demo</p>
                             </button>
                         </div>

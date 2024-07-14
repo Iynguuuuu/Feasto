@@ -22,9 +22,9 @@ export function StreamlineGraphBarIncreaseSolid(props: SVGProps<SVGSVGElement>) 
 const Features = () => {
     return (
         <section id='Features'>
-            <div className="relative md:mt-[0px] mt-[-30rem] mx-5 md:mx-24">
-                <div className="relative flex md:flex-row flex-col-reverse md:justify-between space-y-8">
-                    <div>
+            <div className="relative md:mt-[0px] mt-[-30rem] mx-5 md:mx-24 smaller:mt-[-35rem]">
+                <div className="relative flex md:flex-row flex-col-reverse md:justify-between space-y-8 ">
+                    <div className='smaller:mt-[-14rem]'>
                         <img
                             className="md:w-[613px] md:h-[813px] w-[400px] h-[450px]"
                             src="/ImageCollection.png"
@@ -69,7 +69,7 @@ const Features = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute mt-[-160px] ml-[20px] block md:hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="absolute mt-[-160px] ml-[20px] smaller:ml-[-10px] block md:hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
                             <div className="flex flex-row space-x-3">
                                 <div className="size-[32px] bg-yellow rounded-md flex items-center justify-center">
                                     <img src="/increase.svg" alt="Orders Received" />
@@ -82,7 +82,7 @@ const Features = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute mt-[-470px] ml-[160px] block md:hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
+                        <div className="absolute mt-[-470px] ml-[160px] smaller:ml-[8rem] block md:hidden w-[160px] h-[52px] p-[10px] rounded-xl bg-white shadow-lg">
                             <div className="flex flex-row space-x-3">
                                 <div className="size-[32px] bg-green rounded-md flex items-center justify-center">
                                     <img src="/deliverygreen.svg" alt="Orders Received" />
@@ -98,48 +98,48 @@ const Features = () => {
                     </div>
                     <div className="md:w-[588px] md:h-[760px] w-[358px] h-[951px] text-left md:my-5">
                         <p className="text-primary md:text-[18px] text-[14px] font-medium">EXPLORE FEASTO</p>
-                        <p className="text-text1 md:text-[52px] text-[36px] font-black">
+                        <p className="text-text1 md:text-[52px] text-[36px] font-black smaller:text-[25px]">
                             How <span className="text-primary">FEASTO</span> help your business grow?
                         </p>
                         <div className='mt-10 space-y-5'>
                             <div>
                                 <div className='flex flex-row space-x-5 '>
-                                    <OcticonRocket16 />
+                                    <OcticonRocket16 className='smaller:size-[30px]'/>
                                     <div>
-                                        <p className='text-[20px] text-text1 font-bold'>Launch your store in 3 mins</p>
+                                        <p className='text-[20px] text-text1 font-bold smaller:text-[17px]'>Launch your store in 3 mins</p>
                                     </div>
                                 </div>
-                                <p className='text-[18px] text-text3 mt-4'>Easily launch your online store without coding and saving time.
+                                <p className='text-[18px] text-text3 mt-4 smaller:text-[14px] smaller:w-[300px]'>Easily launch your online store without coding and saving time.
                                     Just choose a domain, add products, and start selling. It's that simple!</p>
                             </div>
                             <div>
                                 <div className='flex flex-row space-x-5 '>
-                                    <MdiCommentFlashOutline />
+                                    <MdiCommentFlashOutline className='smaller:size-[30px]' />
                                     <div>
-                                        <p className='text-[20px] text-text1 font-bold'>Faster response time</p>
+                                        <p className='text-[20px] text-text1 font-bold smaller:text-[17px]'>Faster response time</p>
                                     </div>
                                 </div>
-                                <p className='text-[18px] text-text3 mt-4'>Quickly respond to customer queries and orders through WhatsApp,
+                                <p className='text-[18px] text-text3 mt-4 smaller:text-[14px] smaller:w-[300px]'>Quickly respond to customer queries and orders through WhatsApp,
                                     boosting customer satisfaction and loyalty.</p>
                             </div>
                             <div>
                                 <div className='flex flex-row space-x-5 '>
-                                    <StreamlineGraphBarIncreaseSolid />
+                                    <StreamlineGraphBarIncreaseSolid className='smaller:size-[30px]' />
                                     <div>
-                                        <p className='text-[20px] text-text1 font-bold'>Increased visibility</p>
+                                        <p className='text-[20px] text-text1 font-bold smaller:text-[17px]'>Increased visibility</p>
                                     </div>
                                 </div>
-                                <p className='text-[18px] text-text3 mt-4'>Expand your reach beyond physical locations with an online storefront
+                                <p className='text-[18px] text-text3 mt-4 smaller:text-[14px] smaller:w-[300px]'>Expand your reach beyond physical locations with an online storefront
                                     that’s accessible 24/7.</p>
                             </div>
                             <div>
                                 <div className='flex flex-row space-x-5 '>
-                                    <MdiGamesOutline />
+                                    <MdiGamesOutline className='smaller:size-[30px]' />
                                     <div>
-                                        <p className='text-[20px] text-text1 font-bold'>Ultimate control over your storefront</p>
+                                        <p className='text-[20px] text-text1 font-bold smaller:text-[17px]'>Ultimate control over your <br className='hidden smaller:block' /> storefront</p>
                                     </div>
                                 </div>
-                                <p className='text-[18px] text-text3 mt-4'>You can set your own opening hours, define delivery zones and charges,
+                                <p className='text-[18px] text-text3 mt-4 smaller:text-[14px] smaller:w-[300px]'>You can set your own opening hours, define delivery zones and charges,
                                     select payment methods and handle offers effortlessly.</p>
                             </div>
                         </div>

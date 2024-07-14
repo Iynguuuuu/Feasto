@@ -9,7 +9,7 @@ const PricingCards = () => {
     return (
         <div>
             <div className="mt-12 flex md:space-x-5 md:flex-row flex-col-reverse md:space-y-0 ">
-                <div className="flex justify-center text-center w-[360px] h-[501px]  bg-white rounded-lg shadow-lg md:mt-16 mt-8">
+                <div className="flex justify-center text-center w-[360px] h-[501px]  bg-white rounded-lg shadow-lg md:mt-16 mt-8 smaller:w-[330px] smaller:mx-auto">
 
                     <div className="pt-7 pr-9 pb-9 pl-9">
                         <h5 className=" text-lg font-semibold text-primary">FREE</h5>
@@ -49,9 +49,9 @@ const PricingCards = () => {
 
                     </div>
                 </div>
-                <div className="flex justify-center text-center w-[360px] h-[626px] bg-white rounded-lg border-primary border-2 shadow-2xl">
+                <div className="flex justify-center text-center w-[360px] h-[626px] bg-white rounded-lg border-primary border-2 shadow-2xl smaller:w-[330px] smaller:mx-auto">
                     <div>
-                        <div className="pt-2 pb-2 h-[44px] w-[360px] rounded-t-lg bg-primary flex justify-center">
+                        <div className="pt-2 pb-2 h-[44px] w-[360px] smaller:w-[330px] smaller:mx-auto rounded-t-lg bg-primary flex justify-center ">
                             <p className="text-white text-lg font-semibold">Save 25%</p>
                         </div>
                         <div className="p-[35px] pt-[30px]">
