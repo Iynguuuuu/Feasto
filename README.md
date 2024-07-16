@@ -1,7 +1,3 @@
-Here's a formatted version for your README file:
-
----
-
 # Feasto
 
 ## Project Setup
